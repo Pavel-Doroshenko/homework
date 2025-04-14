@@ -1,0 +1,14 @@
+[project]
+name = "mlbcountswebapp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.0",
+    "gspread>=6.1.4",
+    "gunicorn>=23.0.0",
+    "pandas>=2.2.3",
+    "pymongo>=4.10.1",
+    "requests>=2.32.3",
+]
